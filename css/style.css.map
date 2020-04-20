@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,IAAI;CAChB;;AGFD,AAAA,IAAI,CAAC;EACH,gBAAgB,EDDT,OAAO;ECEd,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "style.scss",
+        "_global.scss",
+        "_fonts.scss",
+        "_colors.scss",
+        "_homepage.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
