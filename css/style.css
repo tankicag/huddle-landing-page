@@ -1,9 +1,39 @@
-body {
-  font-size: 100%;
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  padding: 70px 40px 70px 40px;
   background-color: #674bb1;
-  color: wheat;
+  background-image: url(/images/bg-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    padding: 60px 80px 40px 80px;
+    background-image: url(/images/bg-desktop.svg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
 }
 /*# sourceMappingURL=style.css.map */

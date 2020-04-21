@@ -1,4 +1,31 @@
 body {
+  padding: 70px 40px 70px 40px;
   background-color: $purple;
-  color: wheat;
+  background-image: url(/images/bg-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #ffffff;
+
+  @media screen and (min-width: 1024px) {
+    padding: 60px 80px 40px 80px;
+    background-image: url(/images/bg-desktop.svg);
+  }
+}
+
+main {
+  @media screen and (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.heroImage {
+  @media screen and (min-width: 1024px) {
+  }
+}
+
+.heroText {
+  @media screen and (min-width: 1024px) {
+  }
 }
